@@ -367,13 +367,13 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 90%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
@@ -451,6 +451,8 @@ section .title::after{
 .contact {
     background-color: black; /* Set background color to black */
     color: white; /* Set text color to white */
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .contact .contact-content .column {
